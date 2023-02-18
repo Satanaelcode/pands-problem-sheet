@@ -24,4 +24,4 @@ else: # the only option remained up to 100
 
 # answer to question .3 : variable "number" should be defined as a float instead of int
 # or alternatively use the "round" function when printing the outpu
-# answer to questio .4   
+# answer to question .4 : 
