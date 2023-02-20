@@ -9,9 +9,9 @@
 
 number = int (input("Please enter a positive integer: "))
 while number != 1:
-    if number %2:
+    if number %2 == 0:
         number = number/2
-        print (number)
+        print(number)
     else:
-        number = 3 * number+1
-        print (number)
+        number = 3 * number + 1
+        print(number)
