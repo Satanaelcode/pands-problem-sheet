@@ -5,7 +5,7 @@
 # Author: Andrea Cignoni
  
 numbers = [] 
-# first number then we check if it is 0 ithe while loop
+# first number then we check if it is 0 in the while loop
 number = int(input("enter number (0 to quit): "))
 
 while number !=0:
