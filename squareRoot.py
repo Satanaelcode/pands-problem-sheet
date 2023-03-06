@@ -17,4 +17,4 @@ def square_root(number):
 
 n = float(input("Please enter a positive number: "))
 sqroot_number = square_root (n)
-print ("The square root of ", n,"is approx.", sqroot_number)
+print ("The square root of ", n,"is approx.", "%.1f" %sqroot_number)
