@@ -4,15 +4,13 @@
 
 ## **This program says "Hello World!"**
 
-#                        Bank.py 
+#                       <center> Bank.py</center> 
 
-## **Bank.py sums 2 amounts in cent and convert them into Euro**
+**Bank.py sums 2 amounts in cent and convert them into Euro**
 
-### In this task, I took two numbers, "number1" and "number2", adding them together and then devides the sum by 100. The output prints out converted value into Euro.
+ In this task, I took two numbers, "number1" and "number2", adding them together and then devides the sum by 100. The output prints out converted value into Euro.
 
-# big
-## 
-### 
+
 
 #                        Accounts.py 
 
