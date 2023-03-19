@@ -14,8 +14,7 @@
 #                        Accounts.py 
 
 **This program returns a masked account number with X showing the last 4 digits only**
-[caption](url)
-![caption](image link)
+
 Here, I have put into practice three basic methods: inputing, concatenating strings and outputing slices of code.
 
 My main point of reference for learning how to request an input from a user was [W3School](https://www.w3schools.com/python/python_user_input.asp)
