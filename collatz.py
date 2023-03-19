@@ -15,6 +15,7 @@ def collatz(n):
             n=n//2
         # If the result gives an odd number then the amount is multiplies by 3 and one is added
         else:
-            n=n*3+1
-        return(n)
+            n = n * 3 + 1
+        print(n) # added to show the sequence
+    return(n)
 collatz(n)
