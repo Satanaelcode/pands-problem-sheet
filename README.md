@@ -31,6 +31,9 @@ My main point of reference for learning how to request an input from a user was 
 
 **This program receives any number and returns its square root using the Newman method**
 
+The square_root() function takes a number as an input, sets a level of accuracy for the approximation, assigns the input number to a variable k, and initializes an initial guess for the square root to be half the input number.
+
+
 #                        Es.py 
 
 **this program open a text file reads it and count the number of letter 'e' contained in the text**
