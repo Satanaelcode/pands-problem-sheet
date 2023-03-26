@@ -4,9 +4,9 @@
 
 **This program says "Hello World!"**
 
-A “Hello world!” program is traditionally used to introduce novice programmers to a programming language. This sentence is a string, and a string is a sequence of characters and even a single character is considered a string. In Python strings are "immutable" which means they cannot be changed after they are created and, if you try to change any value in a string, it will throw an error. You must create a new string in order to incorporate the changes.
+A “Hello world!” program is traditionally used to introduce novice programmers to a programming language. This sentence is a string, which generally is a sequence of characters but, even a single character, can be considered a string. In Python, strings are "immutable" which means they cannot be changed after they are created and, if you try to modify any value in a string, it will throw an error. In order to incorporate the changes, you must create a new string.
 
-In practice, to create a string, you need to wrap a sequence of characters in quotation marks. There can be multiple ways of doing this:
+In practice, to generate a string, you need to wrap a character or a sequence of characters in quotation marks. There can be multiple ways of doing this:
 
 - Single quotes that allow you to embed "double" quotes in your string.'
 * Double quotes that allow you to embed 'single' quotes in your string.
