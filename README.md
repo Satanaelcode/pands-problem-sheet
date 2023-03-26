@@ -58,20 +58,24 @@ Generally speaking, a slice object is used to specify how to slice a sequence. Y
 
 #                        Collatz.py 
 
-**This array triggers the collatz calculation and stops the final 4-1-0 loop**
+**This array triggers the collatz calculation and stops the final 4-1-0 loop.**
 
 
 #                        Weekday.py 
 
-**Week.py says whether current day is a weekday or a weekend**
+**Week.py says whether current day is a weekday or a weekend.**
 
 #                         SquareRoot.py 
 
-**This program receives any number and returns its square root using the Newman method**
+**This program receives any number and returns its square root using the Newman method.**
 
 The square_root() function takes a number as an input, sets a level of accuracy for the approximation, assigns the input number to a variable k, and initializes an initial guess for the square root to be half the input number.
 
 
 #                        Es.py 
 
-**this program open a text file reads it and count the number of letter 'e' contained in the text**
+**this program open a file called "Anne Of Green Gable" and reads the text calculating the number of letter 'e' contained.**
+
+#                        Plottask.py
+
+**This code generates a histogram of a normal distribution of a 1000 values with a mean of 5 and standard deviation of 2.**
