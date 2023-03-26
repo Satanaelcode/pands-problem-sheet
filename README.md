@@ -16,7 +16,7 @@ Strings can also span across multiple lines.
 
 #                       <center> Bank.py</center> 
 
-**Bank.py sums 2 amounts in cent and convert them into Euro**
+**Bank.py sums 2 amounts in cent and convert them into Euro.**
 
 This code is created generating two variables whose objects is attributed by a user, a sum of the two integers promped that returns a floating number with two decimals and a final output
 that provide an answer concatenating a string with the result of the addition. These steps are detailed as follows:
@@ -31,9 +31,9 @@ For further information on variables and its usage, please refer to this article
 * *Sum of the two integers: use of integer and floating numbers.*
 
 Calculations in Python operate the same way they do in real life. As if with any calculator,numbers can be added, subtracted multiplied and divided using +, -, * and / symbols respectively. In Python, data types define what type of data or values variables can hold. Numbers have three data points in Python. These are:  
-- **Int**: Integers or whole numbers. Can range from 0 to any number imaginable. Can also contain negative numbers within the same range.  
-- **Float**: Floating-point numbers or numbers that contain decimal points. Floats can contain negative numbers as well as positive numbers so long as they have a decimal point in them. Unlike integers, floating-point numbers do have a maximum size, at which point they become inf or -inf (in the case of negative numbers), which stands for infinity – even though it isn’t technically infinite.  
-- **Complex numbers**: Complex numbers are used for data science scientific notation, and high-level math.
+**Int**: Integers or whole numbers. Can range from 0 to any number imaginable. Can also contain negative numbers within the same range.  
+**Float**: Floating-point numbers or numbers that contain decimal points. Floats can contain negative numbers as well as positive numbers so long as they have a decimal point in them. Unlike integers, floating-point numbers do have a maximum size, at which point they become inf or -inf (in the case of negative numbers), which stands for infinity – even though it isn’t technically infinite.  
+**Complex numbers**: Complex numbers are used for data science scientific notation, and high-level math.
 
 In the addition performed in the present program, the main issues were to sum two positive integers, convert them in to cents and returninga result with a decimal point between the euro and cent of the amount.I have overcome this problem dividing the added amounts by 100 and formatting the result with the float() function.
 
