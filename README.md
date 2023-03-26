@@ -18,7 +18,31 @@ Strings can also span across multiple lines.
 
 **Bank.py sums 2 amounts in cent and convert them into Euro**
 
- In this task, I took two numbers, "number1" and "number2", adding them together and then devides the sum by 100. The output prints out converted value into Euro.
+This code is created generating two variables whose objects is attributed by a user, a sum of the two integers promped that returns a floating number with two decimals and a final output
+that provide an answer concatenating a string with the result of the addition. These steps are detailed as follows:
+
+- *Input function and two variable generation.*
+
+In this task, the user is prompted to insert two numbers through the input function (input). This function is in built in Python and you call it to tell the program to stop and wait for the user to key in the data. These inputs provided by the user are here assigned as the objects to the variables number1 and and number2 respectively. Variables are defined as such by the equal sign which establishes the connection between the two elements and the numbers typed by the user. In fact, a Python variable is a symbolic name that is a reference or pointer to an object. Once an object is assigned to a variable, you can refer to the object by that name.
+
+For further information on variables and its usage, please refer to this article in [realpython. com]
+{https://realpython.com/python-variables/#:~:text=A%20Python%20variable%20is%20a,the%20object%20by%20that%20name.}
+
+* *Sum of the two integers: use of integer and floating numbers.*
+
+Calculations in Python operate the same way they do in real life. As if with any calculator,numbers can be added, subtracted multiplied and divided using +, -, * and / symbols respectively. In Python, data types define what type of data or values variables can hold. Numbers have three data points in Python. These are: 
+**Int**: Integers or whole numbers. Can range from 0 to any number imaginable. Can also contain negative numbers within the same range.
+**Float**: Floating-point numbers or numbers that contain decimal points. Floats can contain negative numbers as well as positive numbers so long as they have a decimal point in them. Unlike integers, floating-point numbers do have a maximum size, at which point they become inf or -inf (in the case of negative numbers), which stands for infinity – even though it isn’t technically 
+infinite. 
+**Complex numbers**: Complex numbers are used for data science scientific notation, and high-level math.
+
+In the addition performed in the present program, the main issues were to sum two positive integers, convert them in to cents and returninga result with a decimal point between the euro and cent of the amount.I have overcome this problem dividing the added amounts by 100 and formatting the result with the float() function.
+
++ *Outputing an answer including the addition result.*
+
+The last step to complete this assignment consisted in outputing an intelegible answer to the user providing the result of the addition of the two numbers. This implied printing a concatenation of two strings: the answer to provide and the result in Euros. In Python, there are a few ways to concatenate or combine strings. In order to merge two strings into a single object, you may use the + operator. However, since in this instance the concatenation included a string and a non-string type variable, namely the amount to provide, it was necessary to cast this last element into a string through the str() function.
+
+My main point of reference here was [digitalocean.com]{https://www.digitalocean.com/community/tutorials/python-concatenate-string-and-int}
 
 
 #                        Accounts.py 
