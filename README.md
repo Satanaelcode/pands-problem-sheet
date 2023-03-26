@@ -1,8 +1,17 @@
 # pands-problem-sheet
 
-#                     Helloworld.py
+#                       <center> Helloworld.py</center>
 
 **This program says "Hello World!"**
+
+A “Hello world!” program is traditionally used to introduce novice programmers to a programming language. This sentence is a string, and a string is a sequence of characters. We create a string by wrapping a sequence of characters in quotation marks. Even a single character is considered a string. In Python strings are "immutable" which means they cannot be changed after they are created. As a consequence, if you try to change any value in a string, it will throw an error. You must create a new string inorder to incorporate the changes.
+To represent a string, you wrap it within quotes. There can be multiple ways of doing this:
+
+-Single quotes that allow you to embed "double" quotes in your string.'
+*Double quotes that allow you to embed 'single' quotes in your string.
++Triple quotes that allow to embed "double quotes" as well as 'single quotes' in your string. 
+
+Strings can also span across multiple lines
 
 #                       <center> Bank.py</center> 
 
@@ -22,6 +31,7 @@ My main point of reference for learning how to request an input from a user was 
 #                        Collatz.py 
 
 **This array triggers the collatz calculation and stops the final 4-1-0 loop**
+
 
 #                        Weekday.py 
 
