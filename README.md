@@ -1,7 +1,7 @@
 # pands-problem-sheet
-
-# <p style="text-align: center;">Helloworld.py</p>
-
+<p align="center">
+// Helloworld.py
+</p>
 **This program says "Hello World!"**
 
 A “Hello world!” program is traditionally used to introduce novice programmers to a programming language. This sentence is a string, which generally is a sequence of characters but, even a single character, can be considered a string. In Python, strings are "immutable" which means they cannot be changed after they are created and, if you try to modify any value in a string, it will throw an error. In order to incorporate the changes, you must create a new string.
@@ -26,7 +26,7 @@ that provide an answer concatenating a string with the result of the addition. T
 In this task, the user is prompted to insert two numbers through the input function (input). This function is in built in Python and you call it to tell the program to stop and wait for the user to key in the data. These inputs provided by the user are here assigned as the objects to the variables number1 and and number2 respectively. Variables are defined as such by the equal sign which establishes the connection between the two elements and the numbers typed by the user. In fact, a Python variable is a symbolic name that is a reference or pointer to an object. Once an object is assigned to a variable, you can refer to the object by that name.
 
 For further information on variables and its usage, please refer to this article in [realpython. com]
-{https://realpython.com/python-variables/#:~:text=A%20Python%20variable%20is%20a,the%20object%20by%20that%20name.}
+(https://realpython.com/python-variables/#:~:text=A%20Python%20variable%20is%20a,the%20object%20by%20that%20name.)
 
 * *Sum of the two integers: use of integer and floating numbers.*
 
@@ -41,7 +41,7 @@ In the addition performed in the present program, the main issues were to sum tw
 
 The last step to complete this assignment consisted in outputing an intelegible answer to the user providing the result of the addition of the two numbers. This implied printing a concatenation of two strings: the answer to provide and the result in Euros. In Python, there are a few ways to concatenate or combine strings. In order to merge two strings into a single object, you may use the + operator. However, since in this instance the concatenation included a string and a non-string type variable, namely the amount to provide, it was necessary to cast this last element into a string through the str() function.
 
-My main point of reference here was [digitalocean.com]{https://www.digitalocean.com/community/tutorials/python-concatenate-string-and-int}
+My main point of reference here was [digitalocean.com](https://www.digitalocean.com/community/tutorials/python-concatenate-string-and-int)
 
 
 #                        Accounts.py 
@@ -54,7 +54,7 @@ The input function was replicated as per the Bank.py program previously illustra
 My main point of reference for learning how to request an input from a user was [W3School](https://www.w3schools.com/python/python_user_input.asp)
 
 The main challenge in this task was to output an answer where only the last 4 characters of the bank account were displayed and while the other 6 digits were replaced with Xs. Again, as in the previous code, the possible solution to perform such an output was to concatenate a series of Xs corresponding to the numbers of integers inserted by the user minus the last four digits and add a slice of the 4 last digits corresponding to the actual account number given. This last non string element had to be, therefore, output with the slicing function giving the last 4 numbers from the end.  
-Generally speaking, a slice object is used to specify how to slice a sequence. You can specify where to start the slicing, and where to end. You can also specify the step, which allows you to e.g. slice only every other item. In this case, the action requested was to get the characters from position 4, and all the way to the end. To perform this method, I followed all the instructions illustrated in [w2school]{https://www.w3schools.com/python/python_strings_slicing.asp}
+Generally speaking, a slice object is used to specify how to slice a sequence. You can specify where to start the slicing, and where to end. You can also specify the step, which allows you to e.g. slice only every other item. In this case, the action requested was to get the characters from position 4, and all the way to the end. To perform this method, I followed all the instructions illustrated in [w2school](https://www.w3schools.com/python/python_strings_slicing.asp)
 
 #                        Collatz.py 
 
