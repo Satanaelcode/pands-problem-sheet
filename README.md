@@ -3,7 +3,8 @@
 </p>
 
 **This program says "Hello World!"**
-<dt>center</dt>
+</p>
+
 A “Hello world!” program is traditionally used to introduce novice programmers to a programming language. This sentence is a string, which generally is a sequence of characters but, even a single character, can be considered a string. In Python, strings are "immutable" which means they cannot be changed after they are created and, if you try to modify any value in a string, it will throw an error. In order to incorporate the changes, you must create a new string.
 
 In practice, to generate a string, you need to wrap a character or a sequence of characters in quotation marks. There can be multiple ways of doing this:
@@ -13,7 +14,7 @@ In practice, to generate a string, you need to wrap a character or a sequence of
 + Triple quotes that allow to embed "double quotes" as well as 'single quotes' in your string. 
 
 Strings can also span across multiple lines.
-<dd>
+
 
 # <p align="center"> Bank.py 
 </p>
