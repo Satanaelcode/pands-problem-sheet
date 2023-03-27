@@ -79,7 +79,7 @@ Generally speaking, a slice object is used to specify how to slice a sequence. Y
 
 **This program receives any number and returns its square root using the Newman method.**
 
-<p align="justify">The square_root() function takes a number as an input, sets a level of accuracy for the approximation, assigns the input number to a variable k, and initializes an initial guess for the square root to be half the input number.
+<p align="start">The square_root() function takes a number as an input, sets a level of accuracy for the approximation, assigns the input number to a variable k, and initializes an initial guess for the square root to be half the input number.
 </dd>
 
 # <p align="center"> Es.py
