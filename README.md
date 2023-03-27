@@ -22,8 +22,7 @@ Strings can also span across multiple lines.
 
 **Bank.py sums 2 amounts in cent and convert them into Euro.**
 
-<p align="justify">This code is created generating two variables whose objects is attributed by a user, a sum of the two integers promped that returns a floating number with two decimals and a final output
-that provide an answer concatenating a string with the result of the addition. These steps are detailed as follows:
+<p align="justify">This code is created generating two variables whose objects is attributed by a user, a sum of the two integers promped that returns a floating number with two decimals and a final output that provide an answer concatenating a string with the result of the addition. These steps are detailed as follows:
 
 - *Input function and two variable generation.*
 
@@ -55,12 +54,12 @@ My main point of reference here was [digitalocean.com](https://www.digitalocean.
 
 **This program returns a masked account number with X showing the last 4 digits only**
 
-<p align="justify">Here, I have put into practice three basic methods: inputing, concatenating strings and outputing slices of code.
-The input function was replicated as per the Bank.py program previously illustrated in the present Readme file.
+<p align="justify">Here, I have put into practice three basic methods: inputing, concatenating strings and outputing slices of code. The input function was replicated as per the Bank.py program previously illustrated in the present Readme file.
 
 My main point of reference for learning how to request an input from a user was [W3School](https://www.w3schools.com/python/python_user_input.asp)
 
-The main challenge in this task was to output an answer where only the last 4 characters of the bank account were displayed and while the other 6 digits were replaced with Xs. Again, as in the previous code, the possible solution to perform such an output was to concatenate a series of Xs corresponding to the numbers of integers inserted by the user minus the last four digits and add a slice of the 4 last digits corresponding to the actual account number given. This last non string element had to be, therefore, output with the slicing function giving the last 4 numbers from the end.  
+The main challenge in this task was to output an answer where only the last 4 characters of the bank account were displayed and while the other 6 digits were replaced with Xs. Again, as in the previous code, the possible solution to perform such an output was to concatenate a series of Xs corresponding to the numbers of integers inserted by the user minus the last four digits and add a slice of the 4 last digits corresponding to the actual account number given. This last non string element had to be, therefore, output with the slicing function giving the last 4 numbers from the end.
+
 Generally speaking, a slice object is used to specify how to slice a sequence. You can specify where to start the slicing, and where to end. You can also specify the step, which allows you to e.g. slice only every other item. In this case, the action requested was to get the characters from position 4, and all the way to the end. To perform this method, I followed all the instructions illustrated in [w2school](https://www.w3schools.com/python/python_strings_slicing.asp).
 </dd>
 
