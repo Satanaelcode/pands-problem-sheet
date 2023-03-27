@@ -17,9 +17,7 @@ def check_len(account_number):
             print("Account number must be atleast 10 digits, Please try again")
     else:
         # Concatenation and slicing technique to mask the output and show just the last 4 digits
-        output_number = "X" * 6 + account_number[6:]
+        output_number = "X" * 6 + account_number[6:10]
         print("Account Number:", output_number)
-# Call the check_int function to verify the input is a digit
-check_int(account_number)
 # Call the check_len function to verify the length of the input
 check_len(account_number)

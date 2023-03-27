@@ -66,7 +66,7 @@ Generally speaking, a slice object is used to specify how to slice a sequence. Y
 # <p align="center"> Collatz.py
 </p>
 
-**This array triggers the collatz calculation and stops the final 4-1-0 loop.**
+**This array triggers the collatz calculation and stops with the final 4-1-0 loop.**
 
 
 # <p align="center"> Weekday.py#
