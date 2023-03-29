@@ -86,7 +86,7 @@ My main point of reference in this case has been [geeksforgeeks.org](https://www
 # <p align="center"> Weekday.py#
 </p>
 
-**this program open a file called "Anne Of Green Gable" and reads the text calculating the number of letter 'e' contained.**
+**Week.py says whether current day is a weekday or a weekend.**
 <p align="justify">
 
 The only way I could run it was necessary to import a module as no built-in Python function could accomplish such a task. For a comprehensive list of Python bulit in functions please refer to [w3school] (https://www.w3schools.com/python/python_ref_functions.asp).  
@@ -106,7 +106,7 @@ To learn how to import modules, I have followed a very instructive and easily un
 
 After having created a variable calling the current day, the two conditions required by the task, namely the two different answers to be give in case of a weekday or in a weekend, had to be created through an **if** and **else** statement structure. In this array, the *if statement* evaluates condition. In case, this is true the code inside **if** is executed and the code inside **else** is skipped. On the contrary, if the condition evaluated in the **if** clause results to be false, the code inside **else** is executed and the code inside **if** is skipped.<dd>
 
-**Week.py says whether current day is a weekday or a weekend.**
+
 
 # <p align="center"> SquareRoot.py
 </p>
@@ -118,6 +118,8 @@ After having created a variable calling the current day, the two conditions requ
 
 # <p align="center"> Es.py
 </p>
+
+**this program open a file called "Anne Of Green Gable" and reads the text calculating the number of letter 'e' contained.**
 
 # <p align="center"> Plottask.py
 </p>
