@@ -80,10 +80,29 @@ For a very informative and detailed explanation on how to define and call functi
 Since the collantz calculation had to be repeated something over and over until the result was equal to 1, I have then implemented a **loop** that iterated the task until this condition was satisfied. A for loop in Python is a control flow statement that is used to repeatedly execute a group of statements as long as a specific outcome is obtained. The two steps to execute included to check whether the number number provided was even or odd and,then, to apply the operations consequently. Therefore, as this calculation had to be performed as long as a condition was true (n>1), I have decided to shape this collantz function using a **while loop**.
  
 In python, a **while loop** is used to execute a block of statements repeatedly until a given condition is satisfied. And when the condition becomes false, the line immediately after the loop in the program is executed. The **else** clause is only executed when your while condition becomes false. If you break out of the loop, or if an exception is raised, it won’t be executed.  
-My main point of reference in this case has been [geeksforgeeks.org](https://www.geeksforgeeks.org/loops-in-python/).</dd>
+My main point of reference in this case has been [geeksforgeeks.org](https://www.geeksforgeeks.org/loops-in-python/).
+</dd>
 
 # <p align="center"> Weekday.py#
 </p>
+<p align="justify">
+
+The only way I could run it was necessary to import a module as no built-in Python function could accomplish such a task. For a comprehensive list of Python bulit in functions please refer to [w3school] (https://www.w3schools.com/python/python_ref_functions.asp).  
+
+On the other hand, we can check all the installed Python modules and get a list of them using the following command inside our Python shell:  
+**>> help('modules')**  
+When we press the enter key after writing the above-given command, the Python shell will start loading the names of all the locally installed Python modules in our system and retrieve all their related information.  
+
+A module is basically a file which can perform any kind of task. In fact, any Python file can be referenced as a module that consist of Python code. A Python file called *hello.py* has the module name of *hello* that can be imported into other Python files or used on the Python command line interpreter. When Python imports a module, the interpreter will first search for a built-in module and if a built-in module is not found, the Python interpreter will then search for a file named hello.py in a list of directories that it receives from the sys.path variable.  
+We can import a module in Python by using **the import statement** along with the specific module name. An import statement is made up of the import keyword along with the name of the module. When you are importing a built-in module, your interpreter should complete the task with no feedback returning to the prompt. This means nothing more is needed to start using the  module. In case the module sought for is not installed, the system will receive error message.  
+For an updated and comprehensive list of all inner Python modules, please refer to [realpython.com] (https://docs.python.org/3/py-modindex.htm).  
+
+When we import a module, we are making it available to us in our current program as a separate namespace. This means that we will have to refer to the function in dot notation, as in [module].[function]. Therefore, in program weekday.py, I have declared my variable ("weekno") storing the current date as follows:
+**datetime.datetime.today().weekday()**  
+Where *today* and *weekday* are the two functions inside the module that we want to use and the empty round brackets represent the data to be extracted. All properties and methods of a specified module which can be found through the built-in Python function **dir ()** along with the name of the module.  
+To learn how to import modules, I have followed a very instructive and easily understadable tutorial found in [digitalocean.com] (https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3).  
+
+After having created a variable calling the current day, the two conditions required by the task, namely the two different answers to be give in case of a weekday or in a weekend, had to be created through an **if** and **else** statement structure. In this array, the *if statement* evaluates condition. In case, this is true the code inside **if** is executed and the code inside **else** is skipped. On the contrary, if the condition evaluated in the **if** clause results to be false, the code inside **else** is executed and the code inside **if** is skipped.<dd>
 
 **Week.py says whether current day is a weekday or a weekend.**
 
