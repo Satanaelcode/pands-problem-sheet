@@ -85,6 +85,8 @@ My main point of reference in this case has been [geeksforgeeks.org](https://www
 
 # <p align="center"> Weekday.py#
 </p>
+
+**this program open a file called "Anne Of Green Gable" and reads the text calculating the number of letter 'e' contained.**
 <p align="justify">
 
 The only way I could run it was necessary to import a module as no built-in Python function could accomplish such a task. For a comprehensive list of Python bulit in functions please refer to [w3school] (https://www.w3schools.com/python/python_ref_functions.asp).  
@@ -97,7 +99,7 @@ A module is basically a file which can perform any kind of task. In fact, any Py
 We can import a module in Python by using **the import statement** along with the specific module name. An import statement is made up of the import keyword along with the name of the module. When you are importing a built-in module, your interpreter should complete the task with no feedback returning to the prompt. This means nothing more is needed to start using the  module. In case the module sought for is not installed, the system will receive error message.  
 For an updated and comprehensive list of all inner Python modules, please refer to [realpython.com] (https://docs.python.org/3/py-modindex.htm).  
 
-When we import a module, we are making it available to us in our current program as a separate namespace. This means that we will have to refer to the function in dot notation, as in [module].[function]. Therefore, in program weekday.py, I have declared my variable ("weekno") storing the current date as follows:
+When we import a module, we are making it available to us in our current program as a separate namespace. This means that we will have to refer to the function in dot notation, as in [module].[function]. Therefore, in program **weekday.py**, I have declared my variable ("*weekno*") storing the current date as follows:
 **datetime.datetime.today().weekday()**  
 Where *today* and *weekday* are the two functions inside the module that we want to use and the empty round brackets represent the data to be extracted. All properties and methods of a specified module which can be found through the built-in Python function **dir ()** along with the name of the module.  
 To learn how to import modules, I have followed a very instructive and easily understadable tutorial found in [digitalocean.com] (https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3).  
@@ -116,8 +118,6 @@ After having created a variable calling the current day, the two conditions requ
 
 # <p align="center"> Es.py
 </p>
-
-**this program open a file called "Anne Of Green Gable" and reads the text calculating the number of letter 'e' contained.**
 
 # <p align="center"> Plottask.py
 </p>
