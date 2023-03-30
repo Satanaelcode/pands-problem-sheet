@@ -4,7 +4,7 @@
 # This operations is to be performed by my own sqrt function
 # Author: Andrea Cignoni
 
-# Create a function to calculate a function of a number
+# Create a function to calculate the square root of a number
 def square_root(number):
     # applying Newton square root method
     # where x is x**2 - 24 is within epsilon of 0
