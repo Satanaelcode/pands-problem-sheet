@@ -123,9 +123,9 @@ To implement this cycle, I have implemented a **square_root()** function that ta
 The general syntax and structure of my array are:
 
 *Initial*
-**while** *logic-condition*
-       *statements*  
-**end**
+_**while** *logic-condition*
+ _      *statements*  
+  _**end**
 
 ▪ **Initial** is a value with the sole purpose of starting the loop by making the condition true.  
 ▪ **logic-condition** is a logical expression that is either true or false.  
