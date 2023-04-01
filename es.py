@@ -23,9 +23,3 @@ with open(Anne_of_Green_Gable, 'r') as f:
 
 # Output the final count of e's found
 print(e_count)
-
-
-
-
-
-

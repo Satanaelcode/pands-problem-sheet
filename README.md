@@ -138,6 +138,36 @@ The program, in its basic structure, prompts the user to enter a positive number
 </p>
 
 **this program open a file called "Anne Of Green Gable" and reads the text calculating the number of letter 'e' contained.**
+<p align="justify">
+
+The main problems presented by the task were accessing a file, reading it and performing a character counting. I have then decided to solve the first issue by importing the **sys module** which let us access system-specific parameters and functions. This module provides functions which are used to manipulate different parts of the Python Runtime Environment and one of these is the **argv** function that returns a list of command line arguments passed to a Python script. In the output, the name of the script is always the item at index 0, and the rest of the arguments are stored at subsequent indices.  
+
+Therefore, this is how I took the filename from the command line arguments:
+
+- **Anne_of_Green_Gable = sys.argv[0]**
+
+**Command line arguments** are those values that are passed during calling of program along with the calling statement. The **sys.argv** takes the command line arguments in the form of a list and the first element of the **sys argv** is the name of the Python file. The second element onwards contains the command line arguments.  
+Once the name of the file was found, the next step was to open that same file for reading which I have performed using a with **open statement** as follows:
+
+- **with open(Anne_of_Green_Gable, 'r') as f:**
+
+In Python, you can access a file by using the **open()** method and create a context using the **with Open** statement. This function returns a file object, which has methods and attributes for getting information about and manipulating the opened file. Access modes govern the type of operations possible in the opened file. It refers to how the file will be used once its opened. These modes also define the location of the File Handle in the file. File handle is like a cursor, which defines from where the data has to be read or written in the file. There are 6 access modes in Python:
+
+- **Read Only (‘r’)**: Open text file for reading. The handle is positioned at the beginning of the file. If the file does not exists, raises the I/O error. This is also the default mode in which a file is opened.
++ **Read and Write (‘r+’)**: Open the file for reading and writing. The handle is positioned at the beginning of the file. Raises I/O error if the file does not exist.
+* **Write Only (‘w’)**: Open the file for writing. For the existing files, the data is truncated and over-written. The handle is positioned at the beginning of the file. Creates the file if the file does not exist.
+- **Write and Read (‘w+’)**: Open the file for reading and writing. For an existing file, data is truncated and over-written. The handle is positioned at the beginning of the file.
++ **Append Only (‘a’)**: Open the file for writing. The file is created if it does not exist. The handle is positioned at the end of the file. The data being written will be inserted at the end, after the existing data.
+* **Append and Read (‘a+’)**: Open the file for reading and writing. The file is created if it does not exist. The handle is positioned at the end of the file. The data being written will be inserted at the end, after the existing data.
+
+My main point of reference here was [geeksforgeeks.org] (https://www.geeksforgeeks.org/reading-writing-text-files-python/).  
+
+Since the only operation required was to read the information the file contained, I have performed the opening in a **"r"** mode and then , in order to perform the vowel "e" counter, stored the same file in the variable "*f*". The counter was subsequently initialized using the Python built-in **e_count** function that could return the count of a designeted element in the text.
+
+- **e_count = 0**
+
+In the case of a string, the counting begins from the start (**0**) of the string till the end. It is also possible to specify the start and end index from where you want the search to begin The count() method returns an integer value. Since the counting was to be performed line by line, I have then implemented a **for loop** array to parse every single line and where I have also specified the character I wanted to search in them.
+</dd>
 
 # <p align="center"> Plottask.py
 </p>
