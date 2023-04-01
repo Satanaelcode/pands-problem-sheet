@@ -114,8 +114,25 @@ After having created a variable calling the current day, the two conditions requ
 </p>
 
 **This program receives any number and returns its square root using the Newman method.**
+<p align="justify">
 
-<p align="justify">The square_root() function takes a number as an input, sets a level of accuracy for the approximation, assigns the input number to a variable k, and initializes an initial guess for the square root to be half the input number.
+The script **squareroot.py** utilizes Newton's method to find the square root of a number through a numerical algorithm. Generally, in complex equations the roots cannot be solved for explicitly, so they must be approximated; that’s where the Newton method comes into play. The first step of the method takes an *initial guess* and uses the function and function derivative to calculate a *next guess*. Then, this *guess* is used in a similar fashion to calculate the *next guess*, and so on, until a tolerance or iteration limit is met. 
+
+To implement this cycle, I have implemented a **square_root()** function that takes a number as an input, sets a level of accuracy for the approximation, assigns the input number to a variable *k*, and initializes an initial *guess* for the square root to be half of the input number.The function then utilizes a *while loop* to iteratively enhance the estimate until it reaches the required accuracy level. In fact, a *while loop* differs from a *for* in that it repeats as long as the condition is true instead of having a set number of iterations. Here the condition is for as long as the error is greater than 0.1.  
+
+The general syntax and structure are:
+
+**Initial**
+**while logic-condition**
+**statements**
+**end**
+
+▪ **Initial** is a value with the sole purpose of starting the loop by making the condition true.
+▪ **logic-condition** is a logical expression that is either true or false.
+▪ **statements** are the commands to be repeated. One should be
+an update for the value tested in the condition.
+
+The program, in its basic structure, prompts the user to enter a positive number, then calls the **"square_root"** function with the input value as an argument, and ultimately displays the input number and its estimated square root with one decimal point precision.
 </dd>
 
 # <p align="center"> Es.py

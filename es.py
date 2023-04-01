@@ -16,10 +16,8 @@ Anne_of_Green_Gable = sys.argv[0]
 with open(Anne_of_Green_Gable, 'r') as f:
     # Initialize a counter for the number of e's found
     e_count = 0
-
     # Loop over each line in the file
     for line in f:
-
         # Count the number of e's in the line and add it to the counter
         e_count += line.count('e') + line.count('E')
 
