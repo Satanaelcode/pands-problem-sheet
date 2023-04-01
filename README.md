@@ -124,7 +124,7 @@ The general syntax and structure are:
 
 **Initial**
 **while logic-condition**
-**statements**
+    **statements**  
 **end**
 
 ▪ **Initial** is a value with the sole purpose of starting the loop by making the condition true.
