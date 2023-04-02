@@ -26,7 +26,7 @@ def h(x):
 # Generate x values in the range [0, 10]
 x = np.linspace (0, 10, num=100)
 
-# Plot the functoin h(x) = x^3
+# Plot the function h(x) = x^3
 plt.subplot(1, 2, 2)
 plt.plot(x, h(x))
 plt.title('Function h(x)=x^3')
