@@ -83,7 +83,7 @@ In python, a **while loop** is used to execute a block of statements repeatedly 
 My main point of reference in this case has been [geeksforgeeks.org](https://www.geeksforgeeks.org/loops-in-python/).
 </dd>
 
-# <p align="center"> Weekday.py#
+# <p align="center"> Weekday.py
 </p>
 
 **Week.py says whether current day is a weekday or a weekend.**
